@@ -1,8 +1,6 @@
-from tkinter import Button
 import streamlit as st
 import altair as alt
 import pandas as pd
-from streamlit.elements.data_frame import _marshall_index
 import yfinance as yf
 
 @st.cache
